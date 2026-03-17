@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LibreriaModelos
 {
-    internal class Cliente
+    public class Cliente
     {
         [Key] public int Id { get; set; }
         public string Nombre_Cliente { get; set; }
@@ -16,5 +16,7 @@ namespace LibreriaModelos
         public string Correo_Cliente { get; set; }
         public string Nombre_Usuario { get; set; }
         public string Contrasenia_Cliente { get; set; }
+
+        List<Prestamo>? Prestamos { get; set; } = new List<Prestamo>();
     }
 }

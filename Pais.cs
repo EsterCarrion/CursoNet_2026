@@ -11,5 +11,8 @@ namespace LibreriaModelos
     {
         [Key] public int Id { get; set; }
         public string Nombre_Pais { get; set; }
+
+        //Lista de autores que pertenecen a este país
+        List<Autor>? Autores { get; set; } = new List<Autor>(); 
     }
 }

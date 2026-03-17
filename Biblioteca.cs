@@ -15,6 +15,7 @@ namespace LibreriaModelos
         public string Nombre_Biblioteca { get; set; }
         public string Dirección { get; set; }
 
+        List<Libro>? Libros { get; set; } = new List<Libro>();
 
     }
 }
