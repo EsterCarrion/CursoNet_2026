@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace LibreriaModelos
 {
-    internal class Prestamo
+    public class Prestamo
     {
         [Key] public int Id {  get; set; }
         public string Descripcion_Prestamo { get; set; }
