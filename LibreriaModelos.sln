@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaModelos", "LibreriaModelos.csproj", "{F2E8967A-B006-4180-9E5C-EFBC3A1F08F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria.API", "..\Libreria.API\Libreria.API.csproj", "{01D62208-B084-4BEA-AC21-02C560964F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Consumer", "..\API.Consumer\API.Consumer.csproj", "{DDDA9B44-13C1-4C27-BD14-2C477C58762C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria.MVC", "..\Libreria.MVC\Libreria.MVC.csproj", "{9DD1725E-A87E-47C5-B89A-F98497C9FEB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{01D62208-B084-4BEA-AC21-02C560964F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01D62208-B084-4BEA-AC21-02C560964F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01D62208-B084-4BEA-AC21-02C560964F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDA9B44-13C1-4C27-BD14-2C477C58762C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDA9B44-13C1-4C27-BD14-2C477C58762C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDA9B44-13C1-4C27-BD14-2C477C58762C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDA9B44-13C1-4C27-BD14-2C477C58762C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD1725E-A87E-47C5-B89A-F98497C9FEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD1725E-A87E-47C5-B89A-F98497C9FEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD1725E-A87E-47C5-B89A-F98497C9FEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD1725E-A87E-47C5-B89A-F98497C9FEB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
